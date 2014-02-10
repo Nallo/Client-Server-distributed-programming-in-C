@@ -1,0 +1,13 @@
+/* XDR Types for the client-server
+*/
+
+
+struct Request {
+	float data<>; 		/* il blocco dei dati */
+	bool last; 			/* true se e’ l’ultimo blocco */
+};
+
+struct Response {
+	bool error; 		/* true se e’ successo un errore */
+	float result; 		/* il risultato del calcolo (valido solo se error e’ false) */
+};
