@@ -1,3 +1,16 @@
+/*
+ 
+ Compile with:
+    
+    gcc -Wall -o client -lpthread *.c
+ 
+ Run with
+ 
+    ./client <address> <port> <input-file>
+ 
+ */
+
+
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <arpa/inet.h>

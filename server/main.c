@@ -1,3 +1,15 @@
+/*
+ 
+ Compile with:
+ 
+    gcc -Wall -o server -lpthread *.c
+ 
+ Run with:
+ 
+    ./server <listen-port> <input-file>
+ 
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <errno.h>
